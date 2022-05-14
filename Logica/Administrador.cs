@@ -19,11 +19,23 @@ namespace Logica
             vacc.registrarVacuna(vacuna);
         }
         
-        public void actualizarVacuna(EVacuna vacuna, string fabricante)
+        public Respuesta actualizarVacuna(EVacuna vacuna, string fabricante)
         {
+            Respuesta resp = new Respuesta();
             VacunaFactory factory = new ConcreteVacunaFactory();
             Vacuna vacc = factory.GetVacuna(fabricante);
-            vacc.actualizarVacuna(vacuna);
+            if (vacc.actualizarVacuna(vacuna))
+            {
+                resp.Mensaje = "Vacuna Actualizada Correctamente";
+                resp.Url = "../Views/RegistroVacunas.aspx";
+            }
+            else
+            {
+                resp.Mensaje = "Error, no se pudo actualizar!!!";
+
+            }
+            return resp;
+
         }
         public List<EVacuna> getVacunasXIdFarm(int id)
         {
@@ -84,7 +96,15 @@ namespace Logica
 
         }
 
+        public List<EVacuna> verVacunas()
+        {
+            return new DAOVacuna().registrosVacunas();
+        }
 
+        public EVacuna verVacunaXId(int id)
+        {
+            return new DAOVacuna().verVacunaXId(id);
+        }
 
     }
 }

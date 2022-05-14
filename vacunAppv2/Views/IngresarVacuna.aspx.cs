@@ -52,7 +52,8 @@ namespace vacunAppv2.Views
             
             if ((!DateTime.TryParse(txtFechaApl.Text, out fecha)) || DateTime.Parse(txtFechaApl.Text) > DateTime.Today)
             {
-                HttpContext.Current.Response.Write("<script>alert('Fecha de Expiración Incorrecta')</script>");
+                HttpContext.Current.Response.Write("<script>alert('Fecha de Aplicación Incorrecta')</script>");
+
             }
             else
             {
@@ -60,11 +61,26 @@ namespace vacunAppv2.Views
                 eVacuna.FechaAplicacion = Convert.ToDateTime(fechaVec.ToShortDateString());
             }
 
-            eVacuna.NoDosis = Convert.ToInt32(txtDosis.Text);
-            eVacuna.LugarAplicacion = txtLugar.Text;
-            Respuesta resp = usuario.ingresarVacuna(eVacuna);
-            ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('" + resp.Mensaje + "');window.location ='" + resp.Url + "';", true);
+            if (txtLugar.Text.Length < 3)
+            {
+                HttpContext.Current.Response.Write("<script>alert('Lugar de Aplicación Incorrecto!!!')</script>");
+            }
+            else
+            {
+                eVacuna.LugarAplicacion = txtLugar.Text;
+            }
 
+            if (eVacuna.UsuarioId != 0
+                && eVacuna.VacunaId != 0
+                && eVacuna.FechaAplicacion != null
+                && eVacuna.LugarAplicacion != null
+                )
+            {
+                Respuesta resp = usuario.ingresarVacuna(eVacuna);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('" + resp.Mensaje + "');window.location ='" + resp.Url + "';", true);
+
+            }
+            
         }
 
         protected void dropFarmaceutica_SelectedIndexChanged(object sender, EventArgs e)

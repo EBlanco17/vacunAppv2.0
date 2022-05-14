@@ -63,9 +63,9 @@ h2 {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: #fff;
+    color: #639390;
     font-family: Bahnschrift Condensed;
-    background: radial-gradient(circle, rgba(93,1,1,1) 0%, rgba(255,145,0,1) 100%);
+    background: #daebea;
 }
 
 .idU {
@@ -76,17 +76,17 @@ h2 {
     background-color: transparent;
 }
 
-.lblNombre, 
+.lblNombre,
 .lblApellido,
 .lblNaci,
-.lblGen, 
-.lblEdad, 
-.lblDoc, 
+.lblGen,
+.lblEdad,
+.lblDoc,
 .lblemail,
 .lblTel {
     font-weight: bold;
-    color: #fff;
-    font-family: Arial;
+    color: #273c3b;
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
 }
 
@@ -115,22 +115,22 @@ h2 {
     font-family: Bahnschrift Condensed;
 }
 
-.txtNombre, 
-.txtApellido, 
-.txtNaci, 
-.txtGen, 
-.txtEdad, 
-.txtDoc, 
-.txtemail, 
+.txtNombre,
+.txtApellido,
+.txtNaci,
+.txtGen,
+.txtEdad,
+.txtDoc,
+.txtemail,
 .txtTel {
     border: none;
     border-bottom: 3px solid #fff;
     outline: none;
     height: 35px;
-    color: #cbcbcb;
+    color: cornsilk;
     font-size: 24px;
     background-color: transparent;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
 .btnCambiar {
@@ -140,7 +140,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    background: linear-gradient(180deg, #ee3939 0%, #ff9900 49%, #1838a0 50%, #57a5ce 100%);
+    background: #02c5ff;
     background-size: 1px 100px;
     transition: all .3s;
     cursor: pointer;
@@ -159,7 +159,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    background: linear-gradient(180deg, #04AA6D 0%, #00ff21 49%, #191818 50%, #57a5ce 100%);
+    background: #19bb43;
     background-size: 1px 100px;
     transition: all .3s;
     cursor: pointer;

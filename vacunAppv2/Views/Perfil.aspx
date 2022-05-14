@@ -18,9 +18,9 @@
 <body>
 
     <form runat="server">
-         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:cornflowerblue;">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#639390;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/Logo1.png" width="45" height="45" class="d-inline-block align-top" alt=""/>VacunApp</a>
+                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/vacun33.png"  width="90" height="50" class="d-inline-block align-top" alt=""/>VacunApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -57,7 +57,7 @@
         </nav>
         <div class="profilebox">
 
-            <h2>Perfil Usuario</h2>
+            <h2 class="titulo">Perfil Usuario</h2>
 
 
             <asp:TextBox runat="server" CssClass="idU" ID="txtId" Enabled="False" Visible="True" placeholder="ID User" /><br />

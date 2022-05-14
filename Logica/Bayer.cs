@@ -15,6 +15,7 @@ namespace Logica
         }
         public bool actualizarVacuna(EVacuna vacuna)
         {
+            vacuna.Farmaceutica_id = 8;
             new DAOVacuna().updateVacuna(vacuna);
             return true;
         }

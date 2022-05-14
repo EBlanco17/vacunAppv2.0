@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../Assets/StyleEsquema.css" rel="stylesheet" />
    <link href="../Assets/bootstrap.min.css" rel="stylesheet" />
     
     <script src="../Assets/jquery.min.js"></script>
@@ -46,23 +47,23 @@
         </nav>
         <div class="divtabla">
             <asp:GridView ID="tabla" runat="server" AutoGenerateColumns="false" CssClass="mGrid" PagerStyle-CssClass="pgr"
-                AlternatingRowStyle-CssClass="alt" GridLines="None" AllowPaging="True" PageSize="8" PagerSettings-Mode="NumericFirstLast"
+                AlternatingRowStyle-CssClass="alt" GridLines="None" AllowPaging="True" PageSize="6" PagerSettings-Mode="NumericFirstLast"
                 OnPageIndexChanging="tabla_PageIndexChanging">
                 <Columns>
-                    <%-- <asp:TemplateField HeaderText="Serial No">
+                     <asp:TemplateField HeaderText="Serial No">
                         <ItemTemplate>
                             <asp:Label ID="Label1" runat="server"
                                 Text='<%# (tabla.PageSize * tabla.PageIndex) + Container.DisplayIndex + 1 %>'>
                             </asp:Label>
                         </ItemTemplate>
-                    </asp:TemplateField>--%>
+                    </asp:TemplateField>
                     <asp:BoundField DataField="fechaAplicacion" HeaderText="FECHA" DataFormatString="{0:d}"/>
                     <asp:BoundField DataField="lugarAplicacion" HeaderText="LUGAR APLICACION" />
                     <asp:BoundField DataField="farmaceutica" HeaderText="FARMACEUTICA" />
                     <asp:BoundField DataField="vacuna" HeaderText="VACUNA" />
                     <asp:BoundField DataField="descripcion" HeaderText="DESCRIPCION"/>
-                    <asp:BoundField DataField="noDosisA" HeaderText="DOSIS APLICADA"/>
-                    <asp:BoundField DataField="noDosis" HeaderText="DOSIS TOTALES"/>
+                    <asp:BoundField DataField="noDosis" HeaderText="DOSIS APLICADA"/>
+                    <asp:BoundField DataField="noDosisTotales" HeaderText="DOSIS TOTALES"/>
                 </Columns>
             </asp:GridView>
         </div>

@@ -72,7 +72,7 @@
 
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
+    font-family: Montserrat, sans-serif;
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
@@ -115,10 +115,18 @@ hr {
 .h2, h2 {
     font-size: calc(1.325rem + .9vw)
 }
-
+.titulo {
+    font-size: 2rem;
+    font-weight: inherit;
+    font-weight: bold;
+    color: #639390;
+}
 @media (min-width:1200px) {
     .h2, h2 {
-        font-size: 2rem
+        font-size: 2rem;
+        font-family: Roboto,sans-serif;
+        color: #daebea;
+        font-weight: bold;
     }
 }
 

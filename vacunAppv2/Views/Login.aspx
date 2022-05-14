@@ -12,16 +12,16 @@
     <script src="../Assets/popper.js"></script>
     <script src="../Assets/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/logo1.png" />
-    <title>VacunApp || Login</title>
+    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/vacun33.png" />
+    <title>Login || VacunApp </title>
 </head>
 <body>
     <form runat="server">
 
-         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:indianred;">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #639390;">
 
             <div class="container-fluid">
-                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/Logo1.png" width="45" height="45" class="d-inline-block align-top" alt=""/>VacunApp</a>
+                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/vacun33.png" width="90" height="50" class="d-inline-block align-top" alt=""/>VacunApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -43,13 +43,13 @@
         </nav>
         <div class="loginbox">
             <img src="../Assets/imagenes/logoLogin.png" alt="Alternate Text" class="user" />
-            <h2>Ingresar</h2>
+            <h2>INGRESAR</h2>
 
-            <asp:Label Text="Correo" CssClass="lblemail" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" />
-            <asp:Label Text="Clave" CssClass="lblemail" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Clave" ID="txtClave" TextMode="Password" />
-            <asp:Label Text="Tipo Usuario" CssClass="lblemail" runat="server" />
+            <asp:Label Text="CORREO" CssClass="lblemail" runat="server" />
+            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" AutoCompleteType="None"/>
+            <asp:Label Text="CLAVE" CssClass="lblemail" runat="server" />
+            <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Clave" ID="txtClave" TextMode="Password" AutoCompleteType="None"/>
+            <asp:Label Text="TIPO USUARIO" CssClass="lblemail" runat="server" />
             <asp:DropDownList runat="server" ID="dropTipoUser" CssClass="dropTipo">
                 <asp:ListItem Text="CORRIENTE" />
                 <asp:ListItem Text="ADMINISTRADOR" />

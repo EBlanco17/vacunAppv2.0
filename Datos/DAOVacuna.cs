@@ -28,7 +28,7 @@ namespace Datos
                 vacunaEditar.Nombre = vacuna.Nombre;
                 vacunaEditar.Descripcion = vacuna.Descripcion;
                 vacunaEditar.NoDosis = vacuna.NoDosis;
-                
+                vacunaEditar.Cantidad = vacuna.Cantidad;
                 db.SaveChanges();//confirmar el guardado
             }
         }
@@ -39,7 +39,60 @@ namespace Datos
         }
 
 
+        public List<EVacuna> registrosVacunas()
+        {
+            using (var db = new Mapeo())
+            {
+                return (from v in db.vaccine
+                        join f in db.farmaceutica on v.Farmaceutica_id equals f.Id
 
+                        select new
+                        {
+                            v,
+                            f
+                        }).ToList().Select(x => new EVacuna
+                        {
+                            Id = x.v.Id,
+                            Nombre_farmaceutica = x.f.Nombre,
+                            Nombre = x.v.Nombre,
+                            Lote = x.v.Lote,
+                            FechaFabricacion = x.v.FechaFabricacion,
+                            FechaExpiracion = x.v.FechaExpiracion,
+                            Cantidad = x.v.Cantidad
+                        }).ToList();
+
+            }
+        }
+
+        public EVacuna verVacunaXId(int id)
+        {
+            using (var db = new Mapeo())
+            {
+                return (from v in db.vaccine
+                        join f in db.farmaceutica on v.Farmaceutica_id equals f.Id
+                        
+                        select new
+                        {
+                            v,
+                            f
+                        }).ToList().Select(x => new EVacuna
+                        {
+                            Id = x.v.Id,
+                            Nombre_farmaceutica = x.f.Nombre,
+                            Nombre = x.v.Nombre,
+                            Lote = x.v.Lote,
+                            FechaFabricacion = x.v.FechaFabricacion,
+                            FechaExpiracion = x.v.FechaExpiracion,
+                            Cantidad = x.v.Cantidad,
+                            NoDosis = x.v.NoDosis,
+                            Descripcion = x.v.Descripcion,
+                            TiempoProteccion = x.v.TiempoProteccion,
+                            Farmaceutica_id = x.v.Farmaceutica_id
+                            
+                        }).Where(y => y.Id == id).FirstOrDefault();
+
+            }
+        }
 
         //*****************************************************************
 
@@ -52,15 +105,18 @@ namespace Datos
             }
         }
 
+        
+
         public List<EVacunasAplicadas> verEsquema(int id)
         {
                  
             using (var db = new Mapeo())
             {
                 return (from va in db.vacunaAplicada
-                        from v in db.vaccine
-                        join f in db.farmaceutica on v.Farmaceutica_id equals f.Id
+                        join v in db.vaccine on va.VacunaId equals v.Id
                         join p in db.persona on va.UsuarioId equals p.Id
+                        join f in db.farmaceutica on v.Farmaceutica_id equals f.Id
+                        
                                                 
                         where p.Id == id
                         select new

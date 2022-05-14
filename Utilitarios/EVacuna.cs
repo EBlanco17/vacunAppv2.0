@@ -18,6 +18,7 @@ namespace Utilitarios
         private string descripcion;
         private int cantidad;
         private int noDosis;
+        private string nombre_farmaceutica;
 
         [Key]
         [Column("id")]
@@ -40,9 +41,7 @@ namespace Utilitarios
         public int Cantidad { get => cantidad; set => cantidad = value; }
         [Column("no_dosis")]
         public int NoDosis { get => noDosis; set => noDosis = value; }
-
-        
-
-
+        [NotMapped]
+        public string Nombre_farmaceutica { get => nombre_farmaceutica; set => nombre_farmaceutica = value; }
     }
 }

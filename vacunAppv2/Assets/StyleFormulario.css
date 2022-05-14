@@ -27,8 +27,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 450px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
@@ -36,15 +36,17 @@
 }
 
 h2 {
-    color: #fff;
-    text-align: left;
-    font-family: Bahnschrift Condensed;
+    color: cornsilk;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
 }
 
 .lbl {
     font-weight: bold;
-    color: #bbe1fa;
-    font-family: Bahnschrift Condensed;
+    color: #87d7f1;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 23px;
 }
 
 .dropLoc, .dropBar, .txt .btnSubmit {
@@ -53,7 +55,7 @@ h2 {
 }
 
 .dropLoc, .dropBar, .txt {
-    width: 50%;
+    width: 100%;
     margin-bottom: 15px;
     border: none;
     border-bottom: 3px solid #fff;
@@ -62,7 +64,7 @@ h2 {
     color: #1b262c;
     font-size: 16px;
     background-color: transparent;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
 ::placeholder {
@@ -73,13 +75,17 @@ h2 {
     border: none;
     outline: none;
     height: 40px;
+    width: 170px;
     font-size: 16px;
     color: #fff;
-    background-color: #49b031;
+    background-color: #25b105;
     cursor: pointer;
     border-radius: 20px;
     transition: .3s ease-in-out;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    /* top: 50%; */
+    left: 58%;
 }
 
     .btnSubmit:hover {

@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../Views/RegistrarVacuna.aspx">Registrar Vacunas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Views/RegistroVacunas.aspx">Ver Vacunas</a>
+                        </li>
                     </ul>
                     <span class="navbar-text">
                         <asp:LinkButton Text="SALIR" CssClass="nav-link botonsalir" ID="btnLogOut" OnClick="btnLogOut_Click" runat="server" />

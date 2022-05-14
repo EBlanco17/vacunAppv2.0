@@ -120,10 +120,38 @@
   <ItemGroup>
     <Content Include="Assets\bootstrap.min.css" />
     <Content Include="Assets\bootstrap.min.js" />
+    <Content Include="Assets\imagenes\1.jpeg" />
+    <Content Include="Assets\imagenes\16070388370816.jpg" />
+    <Content Include="Assets\imagenes\2.jpeg" />
+    <Content Include="Assets\imagenes\3.jpeg" />
+    <Content Include="Assets\imagenes\5.png" />
+    <Content Include="Assets\imagenes\6.png" />
+    <Content Include="Assets\imagenes\7.png" />
+    <Content Include="Assets\imagenes\86f3f9b50370e181e6a162e902c23cddda82b2d1dff20efca50a9606633bd3098a5f51b6017730fe2e8af334adacb430b7183b965dc21dea6f1cef_1280.jpg" />
+    <Content Include="Assets\imagenes\8712_roche.jpg" />
+    <Content Include="Assets\imagenes\abbott_1.jpg" />
+    <Content Include="Assets\imagenes\bayer-800x445-1.jpg" />
+    <Content Include="Assets\imagenes\ddddd.jpg" />
+    <Content Include="Assets\imagenes\doctor-work_144627-40434.jpg" />
+    <Content Include="Assets\imagenes\doctors-checking-x-ray_1098-590.jpg" />
+    <Content Include="Assets\imagenes\Janssen.png" />
+    <Content Include="Assets\imagenes\kisspng-mmr-vaccine-syringe-booster-dose-vaccination-medicina-5b0e62ce047d46.92578233152766945401841.png" />
     <Content Include="Assets\imagenes\logoLogin.png" />
+    <Content Include="Assets\imagenes\logoweb.png" />
+    <Content Include="Assets\imagenes\Novartis-1024x800.png" />
+    <Content Include="Assets\imagenes\pexels-photo-3825502.jpeg" />
+    <Content Include="Assets\imagenes\pexels-photo-4031369.jpeg" />
+    <Content Include="Assets\imagenes\vacun33.png" />
+    <Content Include="Assets\imagenes\_111142531_gettyimages-1205534989.jpg" />
+    <Content Include="Assets\imagenes\_v-original.jpg" />
+    <Content Include="Assets\Inicio.css" />
+    <Content Include="Assets\jquery.js" />
     <Content Include="Assets\jquery.min.js" />
+    <Content Include="Assets\nicepage.css" />
+    <Content Include="Assets\nicepage.js" />
     <Content Include="Assets\popper.js" />
     <Content Include="Assets\StyleCambiar.css" />
+    <Content Include="Assets\StyleEsquema.css" />
     <Content Include="Assets\StyleFormulario.css" />
     <Content Include="Assets\StyleLogin.css" />
     <Content Include="Assets\StylePqrs.css" />
@@ -138,6 +166,7 @@
     <Content Include="Views\Esquema.aspx" />
     <Content Include="Views\Formulario.aspx" />
     <Content Include="Views\IngresarVacuna.aspx" />
+    <Content Include="Views\Inicio.html" />
     <Content Include="Views\InstaurarPQRS.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Views\Perfil.aspx" />
@@ -146,10 +175,12 @@
     <Content Include="Views\RecuperarPassword.aspx" />
     <Content Include="Views\RegistrarVacuna.aspx" />
     <Content Include="Views\Registro.aspx" />
+    <Content Include="Views\RegistroVacunas.aspx" />
     <Content Include="Views\SolicitarAdministrador.aspx" />
     <Content Include="Views\SolicitudesAdministrador.aspx" />
     <Content Include="Views\verSolicitudPQRS.aspx" />
     <Content Include="Views\verUsuario.aspx" />
+    <Content Include="Views\verVacuna.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -238,6 +269,13 @@
       <DependentUpon>Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\RegistroVacunas.aspx.cs">
+      <DependentUpon>RegistroVacunas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\RegistroVacunas.aspx.designer.cs">
+      <DependentUpon>RegistroVacunas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\SolicitarAdministrador.aspx.cs">
       <DependentUpon>SolicitarAdministrador.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -265,6 +303,13 @@
     </Compile>
     <Compile Include="Views\verUsuario.aspx.designer.cs">
       <DependentUpon>verUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\verVacuna.aspx.cs">
+      <DependentUpon>verVacuna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\verVacuna.aspx.designer.cs">
+      <DependentUpon>verVacuna.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

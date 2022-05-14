@@ -12,18 +12,18 @@
     <script src="../Assets/popper.js"></script>
     <script src="../Assets/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/logo1.png" />
+    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/vacun33.png" />
     <title>Registrarse || VacunApp</title>
 </head>
 <body>
 
     <form runat="server">
 
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: indianred;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #639390;">
 
             <div class="container-fluid">
                 <a class="navbar-brand" href="../Views/Inicio.html">
-                    <img src="../Assets/imagenes/Logo1.png" width="45" height="45" class="d-inline-block align-top" alt="" />VacunApp</a>
+                    <img src="../Assets/imagenes/vacun33.png"  width="90" height="50" class="d-inline-block align-top" alt="" />VacunApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

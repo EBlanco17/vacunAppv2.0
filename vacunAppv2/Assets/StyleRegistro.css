@@ -31,7 +31,7 @@ h2 {
     padding: 0;
     margin: 0;
     text-align: center;
-    color: cornsilk;
+    color: #216561b3;
 }
 
 .lblNombre,
@@ -118,13 +118,13 @@ footer {
     left: 5px;
     top: 0px;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 
     .tooltipDemo:hover:after {
-        background: #FF8F35;
-        background: rgb(255, 143, 53);
+        
+        background: #86d7f1;
         border-radius: 4px;
         color: #fff;
         width: 180px;
