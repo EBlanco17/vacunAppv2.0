@@ -13,3 +13,18 @@ C:\Users\EMERSONBLANCO\Documents\vacunAppv2\Logica\obj\Debug\Logica.csproj.CoreC
 C:\Users\EMERSONBLANCO\Documents\vacunAppv2\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\EMERSONBLANCO\Documents\vacunAppv2\Logica\obj\Debug\Logica.dll
 C:\Users\EMERSONBLANCO\Documents\vacunAppv2\Logica\obj\Debug\Logica.pdb
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Logica.dll
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Logica.pdb
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Datos.dll
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Utilitarios.dll
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\EntityFramework.dll
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Datos.pdb
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Datos.dll.config
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Utilitarios.pdb
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\Utilitarios.dll.config
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\bin\Debug\EntityFramework.xml
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\obj\Debug\Logica.dll
+C:\Users\luill\Desktop\Clases\VacunApp Repositorio\vacunAppv2.0\Logica\obj\Debug\Logica.pdb
