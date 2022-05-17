@@ -12,15 +12,15 @@
     <script src="../Assets/popper.js"></script>
     <script src="../Assets/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/logo1.png" />
+    <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/vacun33.png" />
     <title>Ingresar Vacuna || VacunApp</title>
 </head>
 <body>
 
     <form runat="server">
-         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:cornflowerblue;">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#639390;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/Logo1.png" width="45" height="45" class="d-inline-block align-top" alt=""/>VacunApp</a>
+                <a class="navbar-brand" href="../Views/Inicio.html"><img src="../Assets/imagenes/vacun33.png" width="90" height="50" class="d-inline-block align-top" alt=""/>VacunApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,12 +51,12 @@
 
         </nav>
         <div class="Vacunabox">
-            <h2>Ingresar Vacuna</h2>
+            <h2 class="titulo">Ingresar Vacuna</h2>
             <asp:Label Text="Seleccione Farmaceutica:" CssClass="lbl" runat="server"/>
             <asp:DropDownList ID="dropFarmaceutica" CssClass="dropVacunas" AutoPostBack="true" OnSelectedIndexChanged="dropFarmaceutica_SelectedIndexChanged" runat="server"></asp:DropDownList>
             <asp:Label Text="Seleccione Vacuna:" CssClass="lbl" runat="server"/>
             <asp:DropDownList ID="dropVacunas" CssClass="dropVacunas" AutoPostBack="true" runat="server"></asp:DropDownList>
-            <asp:Label Text="Seleccione Vacuna:" CssClass="lbl" runat="server"/>
+            
             <asp:Label Text="Fecha de Aplicación:" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtFechaApl" TextMode="Date" />
             <asp:Label Text="Número de Dosis:" CssClass="lbl" runat="server" />

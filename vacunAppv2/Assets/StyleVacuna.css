@@ -29,7 +29,19 @@
     left: 50%;
     transform: translate(-50%, -40%);
     width: 500px;
-    height: 846px;
+    height: 523px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.Vacunabox23 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    width: 500px;
+    height: 835px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
@@ -39,17 +51,17 @@
 h2 {
     color: #fff;
     text-align: left;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
 .lbl {
     font-weight: bold;
     color: #bbe1fa;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
 .btnSubmit {
-    width: 90%;
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -63,7 +75,7 @@ h2 {
     color: #1b262c;
     font-size: 16px;
     background-color: transparent;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Open Sans',sans-serif;
 }
 
 ::placeholder {
@@ -76,11 +88,11 @@ h2 {
     height: 40px;
     font-size: 16px;
     color: #fff;
-    background-color: #49b031;
+    background-color: #19bb43;
     cursor: pointer;
     border-radius: 20px;
     transition: .3s ease-in-out;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Open Sans',sans-serif;
 }
 
     .btnSubmit:hover {

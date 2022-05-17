@@ -120,13 +120,16 @@ hr {
     font-weight: inherit;
     font-weight: bold;
     color: #639390;
+    text-align: center;
+ 
 }
 @media (min-width:1200px) {
     .h2, h2 {
         font-size: 2rem;
-        font-family: Roboto,sans-serif;
-        color: #daebea;
+        font-family: 'Open Sans',sans-serif;
+        color: #639390;
         font-weight: bold;
+        background: #daebea;
     }
 }
 
@@ -8158,7 +8161,7 @@ textarea.form-control-lg {
 
 .bg-dark {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important
+    background-color: #639390;
 }
 
 .bg-black {

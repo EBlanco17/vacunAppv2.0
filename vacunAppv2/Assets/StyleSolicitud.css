@@ -56,6 +56,7 @@
         padding: 2px;
         border: solid 1px #c1c1c1;
         color: #717171;
+        font-family: Montserrat, sans-serif;
     }
 
     .mGrid th {
@@ -64,6 +65,7 @@
         background: #424242 url(grd_head.png) repeat-x top;
         border-left: solid 1px #525252;
         font-size: 0.9em;
+        font-family: Montserrat, sans-serif;
     }
 
     .mGrid .alt {

@@ -10,7 +10,8 @@
 }
 
 .h2admin {
-    background: radial-gradient(circle, rgba(47,21,251,1) 0%, rgba(106,106,106,1) 100%);
+    background: #daebea;
+    color: #639390;
 }
 
 .navbar-brand {
@@ -64,7 +65,7 @@ h2 {
     margin: 0;
     text-align: center;
     color: #639390;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Open Sans',sans-serif;
     background: #daebea;
 }
 
@@ -90,17 +91,17 @@ h2 {
     font-size: 18px;
 }
 
-.txtNombre, 
-.txtApellido, 
-.txtNaci, 
-.txtGen, 
-.txtEdad, 
+.txtNombre,
+.txtApellido,
+.txtNaci,
+.txtGen,
+.txtEdad,
 .txtDoc,
-.txtemail, 
+.txtemail,
 .txtTel {
     width: 100%;
     margin-bottom: 15px;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .btnSubmit {
