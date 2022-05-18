@@ -59,7 +59,7 @@ namespace Datos
                             FechaFabricacion = x.v.FechaFabricacion,
                             FechaExpiracion = x.v.FechaExpiracion,
                             Cantidad = x.v.Cantidad
-                        }).ToList();
+                        }).OrderBy(i=> i.Id).ToList();
 
             }
         }

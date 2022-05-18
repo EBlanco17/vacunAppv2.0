@@ -66,13 +66,13 @@
             <asp:TextBox runat="server" CssClass="txtNombre" ID="txtNombre" Required="true" SetFocusOnError="true"/>
             <asp:Label Text="Apellidos:" CssClass="lblApellido" runat="server" />
             <asp:TextBox runat="server" CssClass="txtApellido" ID="txtApellido" Required="true" SetFocusOnError="true"/>
-            <asp:Label Text="Fecha de Nacimiento:" CssClass="lblNaci" runat="server" Enabled="false"/>
+            <asp:Label Text="Fecha de Nacimiento:" CssClass="lblNombre" runat="server" Enabled="false"/>
             <asp:TextBox runat="server" CssClass="txtNaci" ID="txtNac" placeholder="DD/MM/AAAA" Enabled="false"/>
             <asp:Label Text="Edad:" CssClass="lblEdad" runat="server" />
             <asp:TextBox runat="server" CssClass="txtEdad" ID="txtEdad" Enabled="false" />
             <asp:Label Text="Genero:" CssClass="lblGen" runat="server" />
             <asp:TextBox runat="server" CssClass="txtGen" ID="txtGen" Enabled="false" />
-            <asp:Label Text="Documento:" CssClass="lblDoc" runat="server" />
+            <asp:Label Text="Documento:" CssClass="lblGen" runat="server" />
             <asp:TextBox runat="server" CssClass="txtDoc" ID="txtDoc" Enabled="false"/>
             <asp:Label Text="Correo:" CssClass="lblemail" runat="server" />
             <asp:TextBox runat="server" CssClass="txtemail" ID="txtemail" TextMode="Email" Required="true" SetFocusOnError="true"/>

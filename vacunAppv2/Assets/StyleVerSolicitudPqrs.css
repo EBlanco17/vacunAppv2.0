@@ -23,8 +23,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-22%);
-    width: 920px;
-    height: 760px;
+    width: 970px;
+    height: 923px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
@@ -49,18 +49,18 @@ h2 {
 }
 
 
-.lbltipo, 
-.lblIdU, 
-.lblId, 
-.lblRem, 
-.lblCorreo, 
-.lblFec, 
-.lblDesc, 
+.lbltipo,
+.lblIdU,
+.lblId,
+.lblRem,
+.lblCorreo,
+.lblFec,
+.lblDesc,
 .lblRes {
     color: #bbe1fa;
-    font-family: Bahnschrift Condensed;
+    font-family: 'Open Sans',sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 
@@ -99,7 +99,7 @@ h2 {
     color: #fff;
     font-size: 16px;
     background-color: transparent;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
 .btnEnviar {
@@ -112,7 +112,7 @@ h2 {
     cursor: pointer;
     border-radius: 20px;
     transition: .3s ease-in-out;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
     .btnEnviar:hover {

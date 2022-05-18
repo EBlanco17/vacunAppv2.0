@@ -47,7 +47,7 @@ namespace vacunAppv2.Views
             Usuario usuario = new Usuario();
             EVacunasAplicadas eVacuna = new EVacunasAplicadas();
             DateTime fecha;
-            eVacuna.UsuarioId = ((EPersona)Session["user"]).RolId;
+            eVacuna.UsuarioId = ((EPersona)Session["user"]).Id;
             eVacuna.VacunaId = dropVacunas.SelectedIndex;
             
             if ((!DateTime.TryParse(txtFechaApl.Text, out fecha)) || DateTime.Parse(txtFechaApl.Text) > DateTime.Today)
@@ -69,7 +69,7 @@ namespace vacunAppv2.Views
             {
                 eVacuna.LugarAplicacion = txtLugar.Text;
             }
-
+            eVacuna.NoDosis = Convert.ToInt32(txtDosis.Text);
             if (eVacuna.UsuarioId != 0
                 && eVacuna.VacunaId != 0
                 && eVacuna.FechaAplicacion != null

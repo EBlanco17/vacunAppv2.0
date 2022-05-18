@@ -5,7 +5,82 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.boxVacuna {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-43%);
+    width: 730px;
+    height: 490px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.boxVacuna1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-26%);
+    width: 730px;
+    height: 922px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+}
+.btnSubmit123 {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    background: #19bb43;
+    background-size: 1px 100px;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 15px;
+}
+.h2vacun {
+    background: #daebea;
+    color: #639390;
+    text-align: center;
+    font-weight: bold;
+}
 
+.cuadrox {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    background: grey;
+    color: cornsilk;
+    font-size: 24px;
+}
+.lbl1 {
+    font-weight: bold;
+    color: #273c3b;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+}
+
+
+.aspNetDisabled {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 35px;
+    color: cornsilk;
+    font-size: 24px;
+    background-color: transparent;
+    font-family: Montserrat, sans-serif;
+    width: 100%;
+}
+.aspNetDisabledTXT {
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+}
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;

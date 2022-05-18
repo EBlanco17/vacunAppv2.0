@@ -33,7 +33,7 @@
     left: 50%;
     transform: translate(-50%,-22%);
     width: 920px;
-    height: 760px;
+    height: 925px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
@@ -62,9 +62,9 @@ h2 {
 
 .lbl {
     color: #bbe1fa;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 
@@ -74,7 +74,7 @@ h2 {
 
 
 .txtRem, .txtCorreo, .txtfechaNac, .txtGen, .txtDoc, .txtFec {
-    width: 45%;
+    width: 100%;
     margin-bottom: 15px;
     border: none;
     border-bottom: 3px solid #fff;
@@ -83,22 +83,22 @@ h2 {
     color: #fff;
     font-size: 16px;
     background-color: transparent;
-    font-family: Bahnschrift Condensed;
+    font-family: Montserrat, sans-serif;
 }
 
-    .btnCambiar {
-        border: none;
-        outline: none;
-        height: 40px;
-        font-weight: bold;
-        font-size: 18px;
-        color: #fff;
-        background: linear-gradient(180deg, #ee3939 0%, #ff9900 49%, #1838a0 50%, #57a5ce 100%);
-        background-size: 1px 100px;
-        transition: all .3s;
-        cursor: pointer;
-        border-radius: 20px;
-    }
+.btnCambiar {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    background: #d51e1e;
+    background-size: 1px 100px;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 20px;
+}
 
     .btnCambiar:hover {
         background-position: 0 -50px;
@@ -112,7 +112,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    background: linear-gradient(180deg, #04AA6D 0%, #00ff21 49%, #191818 50%, #57a5ce 100%);
+    background: #19bb43;
     background-size: 1px 100px;
     transition: all .3s;
     cursor: pointer;
