@@ -48,11 +48,11 @@
 
             <asp:Label Text="Nombres:" CssClass="lblNombre" runat="server" />
             <a alt="Ingrese su nombre" class="tooltipDemo">
-                <asp:TextBox runat="server" CssClass="txtNombre" ID="txtNombre" placeholder="Ingrese nombre" Required="true" SetFocusOnError="true" />
+                <asp:TextBox runat="server" CssClass="txtNombre" ID="txtNombre" placeholder="Ingrese nombre" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             </a>
             <asp:Label Text="Apellidos:" CssClass="lblApellido" runat="server" />
             <a alt="Ingrese sus apellidos" class="tooltipDemo">
-                <asp:TextBox runat="server" CssClass="txtApellido" ID="txtApellido" placeholder="Ingrese apellido" Required="true" SetFocusOnError="true" />
+                <asp:TextBox runat="server" CssClass="txtApellido" ID="txtApellido" placeholder="Ingrese apellido" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             </a>
             <asp:Label Text="Fecha de Nacimiento:" CssClass="lblNaci" runat="server" />
             <a alt="Ingrese su fecha de nacimiento" class="tooltipDemo">
@@ -68,15 +68,15 @@
             </a>
             <asp:Label Text="Documento:" CssClass="lblDoc" runat="server" />
             <a alt="Ingrese su documento" class="tooltipDemo">
-                <asp:TextBox runat="server" CssClass="txtDoc" placeholder="Ingrese Documento" ID="txtDoc" Required="true" SetFocusOnError="true" MaxLength="10" />
+                <asp:TextBox runat="server" CssClass="txtDoc" placeholder="Ingrese Documento" ID="txtDoc" Required="true" SetFocusOnError="true" MaxLength="10" AutoComplete="off"/>
             </a>
             <asp:Label Text="Correo:" CssClass="lblemail" runat="server" />
             <a alt="example123@proveedor.com" class="tooltipDemo">
-                <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Correo" ID="Txtemail" TextMode="Email" Required="true" SetFocusOnError="true" />
+                <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Correo" ID="Txtemail" TextMode="Email" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             </a>
             <asp:Label Text="Teléfono:" CssClass="lblTel" runat="server" />
             <a alt="60+indicativo+Número fijo" class="tooltipDemo">
-                <asp:TextBox runat="server" CssClass="txtTel" placeholder="Ingrese Teléfono" ID="txtTel" TextMode="Phone" Required="true" SetFocusOnError="true" MaxLength="10" />
+                <asp:TextBox runat="server" CssClass="txtTel" placeholder="Ingrese Teléfono" ID="txtTel" TextMode="Phone" Required="true" SetFocusOnError="true" MaxLength="10" AutoComplete="off"/>
             </a>
             <asp:Label Text="Clave:" CssClass="lblClave" runat="server" />
             <a alt="Mínimo 6 caracteres, máximo 14" class="tooltipDemo">

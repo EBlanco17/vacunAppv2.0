@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Linq;
 using System.Web.UI.WebControls;
 using System.Web;
 using Utilitarios;
 using Logica;
+using System.Web.UI;
 
 namespace vacunAppv2.Views
 {
@@ -17,7 +19,17 @@ namespace vacunAppv2.Views
             }
             else
             {
-                this.bindData();
+                Administrador admin = new Administrador();
+                if(admin.verRegistrosAdmin().Count() > 0)
+                {
+                    this.bindData();
+                }
+                else
+                {
+                    ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('Aún no cuenta con registros');window.location = history.back();", true);
+
+                }
+
             }
         }
 

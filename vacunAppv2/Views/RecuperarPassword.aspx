@@ -44,7 +44,7 @@
             <img src="../Assets/imagenes/logoLogin.png" alt="Alternate Text" class="user" />
             <h1>Recuperar Contraseña</h1>
             <asp:Label Text="Correo" CssClass="lblemail" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" />
+            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" AutoComplete="off"/>
             <asp:Button Text="Enviar" CssClass="btnEnviar" ID="btnEnviar" OnClick="btnEnviar_Click" runat="server" />
         </div>
     </form>

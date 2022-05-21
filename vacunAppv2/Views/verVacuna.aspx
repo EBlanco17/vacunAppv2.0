@@ -66,12 +66,13 @@
             <asp:Label Text="Tiempo Protección (días):" CssClass="lbl1" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtTiem" Enabled="False" />
             <asp:Label Text="Descripción:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtDesc" TextMode="MultiLine" MaxLength="150" Height="120px" width="100%" BackColor="WindowFrame" Columns="50" Rows="10" color="cornsilk" font-size="24px" font-family="Montserrat, sans-serif" Enable="False"/>
+            <asp:TextBox runat="server" CssClass="txt" ID="txtDesc" TextMode="MultiLine" MaxLength="150" Height="120px" width="100%" BackColor="WindowFrame" Columns="50" Rows="10" color="cornsilk" font-size="24px" font-family="Montserrat, sans-serif"/>
             <asp:Label Text="Número de Dosis:" CssClass="lbl1" runat="server" />
             <asp:TextBox runat="server" CssClass="cuadrox" ID="txtDosis" />
             <asp:Label Text="Cantidad (und):" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="cuadrox" ID="txtCant" />
-            
+            <asp:TextBox runat="server" CssClass="cuadrox" ID="txtCant" Enabled="False"/>
+            <asp:Label Text="Nueva Cantidad (und):" CssClass="lbl1" runat="server"/>
+            <asp:TextBox runat="server" TextMode="Number" CssClass="cuadrox" ID="txtNuevas"/>
 
             <asp:Button Text="Actualizar Vacuna" CssClass="btnSubmit123" ID="btnSubmit" OnClick="btnSubmit_Click" OnClientClick="return confirm('¿Deseas Continuar con el Cambio?')" runat="server" />
 

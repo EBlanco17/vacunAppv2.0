@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Utilitarios;
 
@@ -95,6 +96,11 @@ namespace Datos
         }
 
         //*****************************************************************
+
+        public int getDosisTotales(int id)
+        {
+            return new Mapeo().vaccine.Where(x => x.Id == id).Select(v => v.NoDosis).FirstOrDefault();
+        }
 
         public void registrarVacunaAplicada(EVacunasAplicadas vacunaA)
         {

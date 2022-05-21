@@ -54,9 +54,9 @@
             <asp:Label Text="Farmaceutica:" CssClass="lbl" runat="server" />
             <asp:DropDownList ID="dropFarmaceuticas" CssClass="dropVacunas" AutoPostBack="true" runat="server"></asp:DropDownList>
             <asp:Label Text="Nombre:" CssClass="lbl" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtNombre" placeholder="Ingrese Nombre" Required="true" SetFocusOnError="true" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtNombre" placeholder="Ingrese Nombre Vacuna" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             <asp:Label Text="Lote:" CssClass="lbl" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtLote" placeholder="Ingrese Lote" Required="true" SetFocusOnError="true" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtLote" placeholder="Ingrese Lote" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             <asp:Label Text="Fecha de Fabricación:" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtFechaFab" TextMode="Date" />
             <asp:Label Text="Fecha de Expiración:" CssClass="lbl" runat="server" />
@@ -64,7 +64,7 @@
             <asp:Label Text="Tiempo Protección (Dias):" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtTiempo" placeholder="Ingrese Tiempo" TextMode="Number" min="1" Required="true" SetFocusOnError="true" />
             <asp:Label Text="Descripción:" CssClass="lbl" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtDesc" placeholder="Ingrese Descripción" Required="true" SetFocusOnError="true" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtDesc" placeholder="Ingrese Descripción" Required="true" SetFocusOnError="true" AutoComplete="off"/>
             <asp:Label Text="Cantidad:" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtCant" placeholder="Ingrese Cantidad" TextMode="Number" min="1" Required="true" SetFocusOnError="true" />
             <asp:Label Text="Número de Dosis:" CssClass="lbl" runat="server" />

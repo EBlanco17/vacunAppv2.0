@@ -28,6 +28,7 @@ namespace vacunAppv2.Views
                     txtDesc.Text = datos.Descripcion;
                     txtDosis.Text = Convert.ToString(datos.NoDosis);
                     txtCant.Text = Convert.ToString(datos.Cantidad);
+                    txtNuevas.Text = "0";
                 }
                 else
                 {
@@ -55,11 +56,20 @@ namespace vacunAppv2.Views
             vacuna.FechaExpiracion = DateTime.Parse(txtFecExp.Text);
             vacuna.Descripcion = txtDesc.Text;
             vacuna.NoDosis = Convert.ToInt32(txtDosis.Text);
-            vacuna.Cantidad = Convert.ToInt32(txtCant.Text);
-            string fabricante = txtFarm.Text;
-            
-            Respuesta resp = admin.actualizarVacuna(vacuna, fabricante);
-            ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('" + resp.Mensaje + "');window.location ='" + resp.Url + "';", true);
+            int cantidad = Convert.ToInt32(txtCant.Text) + Convert.ToInt32(txtNuevas.Text);
+            if (cantidad < 0)
+            {
+                HttpContext.Current.Response.Write("<script>alert('Error... no hay ese total de vacunas para descontar')</script>");
+            }
+            else
+            {
+                vacuna.Cantidad = cantidad;
+                string fabricante = txtFarm.Text;
+
+                Respuesta resp = admin.actualizarVacuna(vacuna, fabricante);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('" + resp.Mensaje + "');window.location ='" + resp.Url + "';", true);
+
+            }
 
         }
     }

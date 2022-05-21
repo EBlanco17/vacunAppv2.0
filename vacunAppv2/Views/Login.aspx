@@ -46,9 +46,9 @@
             <h2>INGRESAR</h2>
 
             <asp:Label Text="CORREO" CssClass="lblemail" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" AutoCompleteType="None"/>
+            <asp:TextBox runat="server" CssClass="txtemail" ID="txtCorreo" placeholder="Ingrese Email" TextMode="Email" AutoComplete="off"/>
             <asp:Label Text="CLAVE" CssClass="lblemail" runat="server" />
-            <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Clave" ID="txtClave" TextMode="Password" AutoCompleteType="None"/>
+            <asp:TextBox runat="server" CssClass="txtemail" placeholder="Ingrese Clave" ID="txtClave" TextMode="Password" AutoComplete="off"/>
             <asp:Label Text="TIPO USUARIO" CssClass="lblemail" runat="server" />
             <asp:DropDownList runat="server" ID="dropTipoUser" CssClass="dropTipo">
                 <asp:ListItem Text="CORRIENTE" />

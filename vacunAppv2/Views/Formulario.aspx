@@ -54,9 +54,9 @@
             <asp:DropDownList ID="dropBarrio" CssClass="dropBar" AutoPostBack="true" runat="server">
             </asp:DropDownList><br />
             <asp:Label Text="EPS:" CssClass="lbl" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtEps" placeholder="Ingrese EPS" Required="true" SetFocusOnError="true"/><br />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtEps" placeholder="Ingrese EPS" Required="true" SetFocusOnError="true" AutoComplete="off"/><br />
             <asp:Label Text="Dirección:" CssClass="lbl" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtDireccion" placeholder="Ingrese Direccion" Required="true" SetFocusOnError="true"/><br />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtDireccion" placeholder="Ingrese Direccion" Required="true" SetFocusOnError="true" AutoComplete="off"/><br />
 
             <asp:Button Text="Guardar" CssClass="btnSubmit" ID="btnGuardar" runat="server" OnClick="btnGuardar_Click" />
 

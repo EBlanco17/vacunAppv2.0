@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Web;
-using System.Web.UI;
+using System.Linq;
 using System.Web.UI.WebControls;
 using Utilitarios;
 using Logica;
-
+using System.Web.UI;
 
 namespace vacunAppv2.Views
 {
@@ -20,7 +20,18 @@ namespace vacunAppv2.Views
                 }
                 else
                 {
-                    this.bindData();
+                    int id = ((EPersona)Session["user"]).Id;
+                    Usuario usuario = new Usuario();
+                    if (usuario.getVacunasAplicadas(id).Count() > 0)
+                    {
+                        this.bindData();
+                    }
+                    else
+                    {
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "alert", "alert('Aún no cuenta con registros');window.location = history.back();", true);
+
+                    }
+
                 }
             }
         }

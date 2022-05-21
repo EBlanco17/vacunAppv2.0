@@ -49,7 +49,7 @@ namespace vacunAppv2.Views
             DateTime fecha;
             eVacuna.UsuarioId = ((EPersona)Session["user"]).Id;
             eVacuna.VacunaId = dropVacunas.SelectedIndex;
-            
+            int dosisTotales = usuario.dosisTotales(eVacuna.VacunaId);
             if ((!DateTime.TryParse(txtFechaApl.Text, out fecha)) || DateTime.Parse(txtFechaApl.Text) > DateTime.Today)
             {
                 HttpContext.Current.Response.Write("<script>alert('Fecha de Aplicación Incorrecta')</script>");
@@ -69,9 +69,18 @@ namespace vacunAppv2.Views
             {
                 eVacuna.LugarAplicacion = txtLugar.Text;
             }
-            eVacuna.NoDosis = Convert.ToInt32(txtDosis.Text);
+            if (Convert.ToInt32(txtDosis.Text) <= dosisTotales)
+            {
+                eVacuna.NoDosis = Convert.ToInt32(txtDosis.Text);
+            }
+            else
+            {
+                HttpContext.Current.Response.Write("<script>alert('No Dosis excede el total de dosis totales!!!')</script>");
+            }
+            
             if (eVacuna.UsuarioId != 0
                 && eVacuna.VacunaId != 0
+                && eVacuna.NoDosis != 0
                 && eVacuna.FechaAplicacion != null
                 && eVacuna.LugarAplicacion != null
                 )

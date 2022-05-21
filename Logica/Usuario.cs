@@ -19,16 +19,18 @@ namespace Logica
         public Respuesta ingresarVacuna(EVacunasAplicadas vacunaA)
         {
             Respuesta resp = new Respuesta();
-                 
+            EVacuna vacuna = new DAOVacuna().verVacunaXId(vacunaA.VacunaId);
+            vacuna.Cantidad -= 1;
+            new DAOVacuna().updateVacuna(vacuna);    
             new DAOVacuna().registrarVacunaAplicada(vacunaA);
             resp.User = null;
             resp.Mensaje = "Se añadio vacuna correctamente";
             resp.Url = "../Views/Perfil.aspx";
             return resp;
         }
-        public void calcularSiguienteDosis()
+        public int dosisTotales(int id)
         {
-
+            return new DAOVacuna().getDosisTotales(id);
         }
         public List<EVacunasAplicadas> getVacunasAplicadas(int idUser)
         {
