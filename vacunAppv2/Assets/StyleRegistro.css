@@ -1,11 +1,4 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../Assets/imagenes/fondoRegister.gif");
-    background-size: cover;
-    font-family: sans-serif;
-}
-
+﻿
 .Registerbox {
     position: absolute;
     top: 50%;

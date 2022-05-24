@@ -1,10 +1,4 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    background-image: url("../Assets/imagenes/fondoLogin.gif");
-    background-size: cover;
-    font-family: sans-serif;
-}
+﻿
 
 .loginbox {
     position: absolute;

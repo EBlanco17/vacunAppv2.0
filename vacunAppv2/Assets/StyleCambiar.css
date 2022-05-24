@@ -1,10 +1,4 @@
-﻿body {
-    margin: 0;
-    padding: 0;
-    /*background-image: url("../Assets/imagenes/fondoCambiar.png");*/
-    background-size: cover;
-}
-
+﻿
 .botonsalir {
     background: rgba(0, 0, 0, 0.5);
     width: 100px;

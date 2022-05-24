@@ -5,7 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-.boxVacuna {
+/*.boxVacuna {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,9 +29,9 @@
     box-sizing: border-box;
     font-size: 20px;
     background: rgba(0,0,0,0.5);
-}
+}*/
 
-.btnSubmit123 {
+/*.btnSubmit123 {
     border: none;
     outline: none;
     height: 40px;
@@ -45,9 +45,9 @@
     border-radius: 20px;
     width: 100%;
     margin-top: 15px;
-}
+}*/
 
-.h2vacun {
+/*.h2vacun {
     background: #daebea;
     color: #639390;
     text-align: center;
@@ -67,7 +67,7 @@
     color: #273c3b;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
-}
+}*/
 
 
 /*.aspNetDisabled {
@@ -157,7 +157,7 @@ body {
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
+    background-color: #0551604a;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
 }
