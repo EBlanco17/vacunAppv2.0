@@ -124,3 +124,45 @@ C:\Users\EBLANCO\Documents\vacunAppv2\Utilitarios\obj\Debug\Utilitarios.csproj.C
 C:\Users\EBLANCO\Documents\vacunAppv2\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
 C:\Users\EBLANCO\Documents\vacunAppv2\Utilitarios\obj\Debug\Utilitarios.dll
 C:\Users\EBLANCO\Documents\vacunAppv2\Utilitarios\obj\Debug\Utilitarios.pdb
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Utilitarios.dll.config
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Utilitarios.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Utilitarios.pdb
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Npgsql.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Buffers.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Collections.Immutable.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Memory.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Text.Json.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Threading.Channels.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.ValueTuple.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\Npgsql.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Buffers.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Collections.Immutable.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Memory.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Text.Json.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Threading.Channels.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\bin\Debug\System.ValueTuple.xml
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\obj\Debug\Utilitarios.csprojAssemblyReference.cache
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\obj\Debug\Utilitarios.csproj.CoreCompileInputs.cache
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\obj\Debug\Utilitarios.csproj.CopyComplete
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\obj\Debug\Utilitarios.dll
+C:\Users\luill\Desktop\Clases\Vacunap prueba final\vacunAppv2.0\Utilitarios\obj\Debug\Utilitarios.pdb

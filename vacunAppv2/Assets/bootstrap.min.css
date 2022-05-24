@@ -17,6 +17,7 @@
     font-size: 20px;
     background: rgba(0,0,0,0.5);
 }
+
 .boxVacuna1 {
     position: absolute;
     top: 50%;
@@ -29,6 +30,7 @@
     font-size: 20px;
     background: rgba(0,0,0,0.5);
 }
+
 .btnSubmit123 {
     border: none;
     outline: none;
@@ -44,6 +46,7 @@
     width: 100%;
     margin-top: 15px;
 }
+
 .h2vacun {
     background: #daebea;
     color: #639390;
@@ -58,6 +61,7 @@
     color: cornsilk;
     font-size: 24px;
 }
+
 .lbl1 {
     font-weight: bold;
     color: #273c3b;
@@ -66,7 +70,7 @@
 }
 
 
-.aspNetDisabled {
+/*.aspNetDisabled {
     border: none;
     border-bottom: 3px solid #fff;
     outline: none;
@@ -80,7 +84,7 @@
 .aspNetDisabledTXT {
     width: 100%;
     font-family: Montserrat, sans-serif;
-}
+}*/
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -190,14 +194,15 @@ hr {
 .h2, h2 {
     font-size: calc(1.325rem + .9vw)
 }
+
 .titulo {
     font-size: 2rem;
     font-weight: inherit;
     font-weight: bold;
     color: #639390;
     text-align: center;
- 
 }
+
 @media (min-width:1200px) {
     .h2, h2 {
         font-size: 2rem;

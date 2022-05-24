@@ -51,7 +51,7 @@
 
         <div class="divtabla">
             <asp:GridView ID="tabla" runat="server" AutoGenerateColumns="false" CssClass="mGrid" PagerStyle-CssClass="pgr"
-                AlternatingRowStyle-CssClass="alt" GridLines="None" AllowPaging="True" PageSize="4" PagerSettings-Mode="NumericFirstLast"
+                AlternatingRowStyle-CssClass="alt" GridLines="None" AllowPaging="True" PageSize="9" PagerSettings-Mode="NumericFirstLast"
                 OnPageIndexChanging="tabla_PageIndexChanging">
                 <Columns>
                     <asp:BoundField DataField="id" HeaderText="ID" />

@@ -162,6 +162,7 @@
     <Content Include="Assets\StyleVacuna.css" />
     <Content Include="Assets\StyleVerSolicitudPqrs.css" />
     <Content Include="Assets\StyleVerUsuario.css" />
+    <Content Include="Assets\StyleVerVacuna.css" />
     <Content Include="Views\CambiarPassword.aspx" />
     <Content Include="Views\Esquema.aspx" />
     <Content Include="Views\Formulario.aspx" />

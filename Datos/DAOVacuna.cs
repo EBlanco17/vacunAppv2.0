@@ -60,7 +60,7 @@ namespace Datos
                             FechaFabricacion = x.v.FechaFabricacion,
                             FechaExpiracion = x.v.FechaExpiracion,
                             Cantidad = x.v.Cantidad
-                        }).OrderBy(i=> i.Id).ToList();
+                        }).OrderBy(i => i.Nombre_farmaceutica).ToList();
 
             }
         }

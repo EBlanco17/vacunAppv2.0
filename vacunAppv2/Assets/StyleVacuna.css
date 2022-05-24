@@ -28,13 +28,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -40%);
-    width: 500px;
+    width: 580px;
     height: 523px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
     background: rgba(0,0,0,0.5);
 }
+
 .Vacunabox23 {
     position: absolute;
     top: 50%;
@@ -88,7 +89,7 @@ h2 {
     height: 40px;
     font-size: 16px;
     color: #fff;
-    background-color: #19bb43;
+    background-color: #639390;
     cursor: pointer;
     border-radius: 20px;
     transition: .3s ease-in-out;
@@ -96,5 +97,5 @@ h2 {
 }
 
     .btnSubmit:hover {
-        background-color: #d0793f;
+        background-color: #426361;
     }

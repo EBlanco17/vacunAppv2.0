@@ -22,15 +22,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-22%);
+    transform: translate(-50%,-35%);
     width: 970px;
-    height: 923px;
+    height: 762px;
     padding: 15px 40px;
     box-sizing: border-box;
     font-size: 20px;
     background: rgba(0,0,0,0.5);
     margin-bottom: 55px;
 }
+
 h2 {
     padding: 0;
     margin: 0;
@@ -38,6 +39,7 @@ h2 {
     color: #fff;
     font-family: Bahnschrift Condensed;
 }
+
 .navbar-brand {
     height: 60px;
 }
@@ -108,7 +110,7 @@ h2 {
     height: 40px;
     font-size: 16px;
     color: #fff;
-    background-color: #49b031;
+    background-color: #639390;
     cursor: pointer;
     border-radius: 20px;
     transition: .3s ease-in-out;
@@ -116,7 +118,7 @@ h2 {
 }
 
     .btnEnviar:hover {
-        background-color: #d0793f;
+        background-color: #426361;
     }
 
 .txtDesc, .txtRes {

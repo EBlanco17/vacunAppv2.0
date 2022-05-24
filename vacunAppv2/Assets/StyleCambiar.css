@@ -1,7 +1,7 @@
 ﻿body {
     margin: 0;
     padding: 0;
-    background-image: url("../Assets/imagenes/fondoCambiar.png");
+    /*background-image: url("../Assets/imagenes/fondoCambiar.png");*/
     background-size: cover;
 }
 
@@ -19,13 +19,12 @@
 
 .navbar-brand {
     height: 60px;
- }
+}
 
 .nav-item {
     top: 50%;
     height: 40px;
     text-align: center;
-   
 }
 
 
@@ -78,6 +77,7 @@ h1 {
     font-size: 24px;
     background-color: transparent;
 }
+
 ::placeholder {
     color: lightblue;
 }
@@ -89,7 +89,7 @@ h1 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
-    background: linear-gradient(180deg, #04AA6D 0%, #00ff21 49%, #ce9d15 50%, #d9500b 100%);
+    background: #639390;
     background-size: 1px 100px;
     transition: all .3s;
     cursor: pointer;
@@ -97,9 +97,9 @@ h1 {
 }
 
     .btnEnviar:hover {
-        background-position: 0 -50px;
-        transition: all .3s;
+        background-color: #426361;
     }
-    footer{
-        height: 120px;
-    }
+
+footer {
+    height: 120px;
+}

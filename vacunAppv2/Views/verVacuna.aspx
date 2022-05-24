@@ -9,6 +9,7 @@
     
     <script src="../Assets/jquery.min.js"></script>
     <script src="../Assets/popper.js"></script>
+    <link href="../Assets/StyleVerVacuna.css" rel="stylesheet" />
     <script src="../Assets/bootstrap.min.js"></script>
 
     <link rel="shortcut icon" type="image/png" href="../Assets/imagenes/vacun33.png" />
@@ -47,34 +48,34 @@
             </div>
 
         </nav>
-        <div class="boxVacuna1">
+        <div class="boxVacuna">
 
             <h2 class="h2vacun">Editar Vacuna</h2>
 
-            <asp:Label Text="ID:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="numeroid" ID="txtId" Enabled="False" />
-            <asp:Label Text="Farmaceutica:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="" ID="txtFarm" Enabled="False" />
-            <asp:Label Text="Nombre:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="cuadrox" ID="txtNombre" AutoCompleteType="None" />
-            <asp:Label Text="Lote:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" ID="txtLote" CssClass="" Enabled="False" />
-            <asp:Label Text="Fecha Fabricación:" CssClass="lbl1" runat="server" />
+            <asp:Label Text="ID:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtId" Enabled="False" />
+            <asp:Label Text="Farmaceutica:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtFarm" Enabled="False" />
+            <asp:Label Text="Nombre:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtNombre" AutoCompleteType="None" />
+            <asp:Label Text="Lote:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" ID="txtLote" CssClass="txt" Enabled="False" />
+            <asp:Label Text="Fecha Fabricación:" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" ID="txtFecFab" CssClass="txt" Enabled="False" />
-            <asp:Label Text="Fecha Expiración:" CssClass="lbl1" runat="server" />
+            <asp:Label Text="Fecha Expiración:" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtFecExp" Enabled="False" />
-            <asp:Label Text="Tiempo Protección (días):" CssClass="lbl1" runat="server" />
+            <asp:Label Text="Tiempo Protección (días):" CssClass="lbl" runat="server" />
             <asp:TextBox runat="server" CssClass="txt" ID="txtTiem" Enabled="False" />
-            <asp:Label Text="Descripción:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="txt" ID="txtDesc" TextMode="MultiLine" MaxLength="150" Height="120px" width="100%" BackColor="WindowFrame" Columns="50" Rows="10" color="cornsilk" font-size="24px" font-family="Montserrat, sans-serif"/>
-            <asp:Label Text="Número de Dosis:" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="cuadrox" ID="txtDosis" />
-            <asp:Label Text="Cantidad (und):" CssClass="lbl1" runat="server" />
-            <asp:TextBox runat="server" CssClass="cuadrox" ID="txtCant" Enabled="False"/>
-            <asp:Label Text="Nueva Cantidad (und):" CssClass="lbl1" runat="server"/>
-            <asp:TextBox runat="server" TextMode="Number" CssClass="cuadrox" ID="txtNuevas"/>
+            <asp:Label Text="Descripción:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txtDesc" ID="txtDesc" TextMode="MultiLine" MaxLength="150" Height="120px" width="100%" BackColor="WindowFrame" Columns="50" Rows="10" color="black" font-size="20px" font-family="Montserrat, sans-serif"/>
+            <asp:Label Text="Número de Dosis:" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtDosis" />
+            <asp:Label Text="Cantidad (und):" CssClass="lbl" runat="server" />
+            <asp:TextBox runat="server" CssClass="txt" ID="txtCant" Enabled="False"/>
+            <asp:Label Text="Nueva Cantidad (und):" CssClass="lbl" runat="server"/>
+            <asp:TextBox runat="server" TextMode="Number" CssClass="txt" ID="txtNuevas"/>
 
-            <asp:Button Text="Actualizar Vacuna" CssClass="btnSubmit123" ID="btnSubmit" OnClick="btnSubmit_Click" OnClientClick="return confirm('¿Deseas Continuar con el Cambio?')" runat="server" />
+            <asp:Button Text="Actualizar Vacuna" CssClass="btnSubmit" ID="btnSubmit" OnClick="btnSubmit_Click" OnClientClick="return confirm('¿Deseas Continuar con el Cambio?')" runat="server" />
 
         </div>
     </form>

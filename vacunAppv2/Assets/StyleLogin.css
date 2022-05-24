@@ -17,10 +17,11 @@
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
 }
+
 .navbar-brand {
     height: 60px;
-    
 }
+
 .nav-item {
     top: 50%;
     height: 40px;
@@ -67,6 +68,7 @@ h2 {
     font-size: 16px;
     background-color: transparent;
 }
+
 .dropTipo {
     border: none;
     border-bottom: 3px solid #fff;
@@ -76,6 +78,7 @@ h2 {
     font-size: 16px;
     background-color: transparent;
 }
+
 ::placeholder {
     color: lightblue;
 }
@@ -93,13 +96,12 @@ h2 {
 }
 
     .btnSubmit:hover {
-        background-color: lightsalmon;
+        background-color: #426361;
     }
 
 footer {
     position: absolute;
     top: 100%;
     height: 120px;
-    width:100%;
-    
+    width: 100%;
 }

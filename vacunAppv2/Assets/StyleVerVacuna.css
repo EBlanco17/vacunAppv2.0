@@ -6,10 +6,6 @@
 }
 
 
-.h2admin {
-    background: #daebea;
-    color: #639390;
-}
 
 .navbar-brand {
     height: 60px;
@@ -35,69 +31,27 @@
         background: rgba(0, 0, 0, 0.7);
     }
 
-.botonadmin {
-    background: rgba(0, 0, 0, 0.2);
-    width: 250px;
-    text-align: center;
-    color: #fff;
-    margin-left: 15px;
-}
-
-    .botonadmin:hover {
-        background: rgba(0, 0, 0, 0.5);
-    }
-
-.profilebox {
+.boxVacuna {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
-    width: 500px;
-    height: 748px;
+    transform: translate(-50%, -25%);
+    width: 600px;
+    height: 1083px;
     padding: 12px 40px;
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
 }
 
-h2 {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    color: #639390;
-    font-family: 'Open Sans',sans-serif;
-    background: #daebea;
-}
 
-.idU {
-    border: none;
-    height: 15px;
-    color: #fff;
-    font-size: 12px;
-    background-color: transparent;
-}
-
-.lblNombre,
-.lblApellido,
-.lblNaci,
-.lblGen,
-.lblEdad,
-.lblDoc,
-.lblemail,
-.lblTel {
+.lbl {
     font-weight: bold;
     color: #273c3b;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
 }
 
-.txtNombre,
-.txtApellido,
-.txtNaci,
-.txtGen,
-.txtEdad,
-.txtDoc,
-.txtemail,
-.txtTel {
+.txt {
     width: 100%;
     margin-bottom: 15px;
     font-family: 'Open Sans',sans-serif;
@@ -109,20 +63,8 @@ h2 {
     font-family: Bahnschrift Condensed;
 }
 
-.btnCambiar {
-    width: 48%;
-    margin-bottom: 15px;
-    font-family: Bahnschrift Condensed;
-}
 
-.txtNombre,
-.txtApellido,
-.txtNaci,
-.txtGen,
-.txtEdad,
-.txtDoc,
-.txtemail,
-.txtTel {
+.txt{
     border: none;
     border-bottom: 3px solid #fff;
     outline: none;
@@ -133,23 +75,6 @@ h2 {
     font-family: Montserrat, sans-serif;
 }
 
-.btnCambiar {
-    border: none;
-    outline: none;
-    height: 40px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-    background: #639390;
-    background-size: 1px 100px;
-    transition: all .3s;
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-    .btnCambiar:hover {
-        background-color: #426361;
-    }
 
 .btnSubmit {
     border: none;
@@ -158,6 +83,7 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     color: #fff;
+    width: 100%;
     background: #014154;
     background-size: 1px 100px;
     transition: all .3s;

@@ -17,6 +17,7 @@
     box-sizing: border-box;
     background: rgba(0,0,0,0.5);
 }
+
 .navbar-brand {
     height: 60px;
 }
@@ -46,18 +47,19 @@ h2 {
     color: #87d7f1;
 }
 
-.txtNombre, 
-.txtApellido, 
+.txtNombre,
+.txtApellido,
 .txtNaci,
-.dropGen, 
-.txtDoc, 
-.txtemail, 
-.txtClave, 
-.txtTel, 
+.dropGen,
+.txtDoc,
+.txtemail,
+.txtClave,
+.txtTel,
 .btnSubmit {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .dropGen {
     border: none;
     border-bottom: 3px solid #fff;
@@ -67,12 +69,13 @@ h2 {
     font-size: 16px;
     background-color: rgba(0,0,0,0.5);
 }
-.txtNombre, 
-.txtApellido, 
-.txtNaci, 
-.txtDoc, 
-.txtemail, 
-.txtClave, 
+
+.txtNombre,
+.txtApellido,
+.txtNaci,
+.txtDoc,
+.txtemail,
+.txtClave,
 .txtTel {
     border: none;
     border-bottom: 3px solid #fff;
@@ -123,7 +126,6 @@ footer {
 
 
     .tooltipDemo:hover:after {
-        
         background: #86d7f1;
         border-radius: 4px;
         color: #fff;
